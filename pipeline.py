@@ -22,7 +22,7 @@ def run_pipepline():
   df_raw = extract_data(input_path)
   df_cleaned = transform_data(df_raw)
   load_data(df_cleaned, output_path)
-  print("Data pipeline completed successfully")
+  print("Data pipeline completed successfully.")
 
 if __name__ == "__main__":
   run_pipeline()
