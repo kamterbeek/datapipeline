@@ -6,3 +6,6 @@ simple-data-pipeline/
   -Dockerfile
   -requirements.txt
   -docker-compose.yml
+
+
+(can be altered for any data available)
