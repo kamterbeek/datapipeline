@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
-input_path = os.path.join("/data", "MYCSV.csv")
-output_path = ps.path.join("/data", "CleanedMedicalData.csv")
+input_path = os.path.join("/data", "MYDATA.csv")
+output_path = ps.path.join("/data", "MYCLEANEDDATA.csv")
 
 def extract_data(path):
   df = pd.read_csv(path)
